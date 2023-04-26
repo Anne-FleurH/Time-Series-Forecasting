@@ -136,6 +136,10 @@ Row description: A single ingredient within a sub-recipe
 
 Row description: An ingredient used in a franchisee recipe
 
-* Table 11: portion_uom_types
 
-PortionUOMTypeId: Integer, Unique identifier for the unit of measurement
+**Table 11: portion_uom_types**
+
+* PortionUOMTypeId: Integer, Unique identifier for the unit of measurement
+* PortionTypeDescription: String, Text description of unit of measurement
+
+Row description: Portion (or unit of measurement) for an ingredient
